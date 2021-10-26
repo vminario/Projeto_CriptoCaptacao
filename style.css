@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*fonte*/
+@font-face {
+    font-family: 'roboto_thin';
+    src: url('Roboto/fonts/Roboto-Thin.ttf');
+}
+@font-face {
+    font-family:'roboto_light' ;
+    src: url('Roboto/fonts/Roboto-Light.ttf');
+}
+@font-face {
+    font-family:'roboto_black';
+    src: url('Roboto/fonts/Roboto-Black.ttf');
+}
+@font-face {
+    font-family:'roboto_bold';
+    src: url('Roboto/fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family:'roboto_light_italic';
+    src: url('Roboto/fonts/Roboto-LightItalic.ttf');
+}
+@font-face {
+    font-family:'roboto_regular';
+    src: url('Roboto/fonts/Roboto-Regular.ttf');
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+.container{
+display: grid;
+}
+/*fundo*/
+.fundo {
+    background-image: url('img/base_Criptografia.png');
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    height: 700px;
+}
+
+.texto {
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+    padding: 0px;
+}
+
+#texto_1 {
+    line-height: 37px;
+    font-size: 130%;
+    margin-top: 10px;
+    font-family:'Roboto';
+}
+
+#linha>img {
+    width: 33%;
+    margin-top: 20px;
+    margin-bottom: 9px
+}
+
+#texto_2 {
+    font-family: 'roboto_light';
+    font-size: 120%;
+    line-height: 25px;
+}
+
+#icon1>img {
+    
+    float: left;
+    margin-top: 95.4px;
+    margin-left: 176px;
+    width: 18%;
+    
+}
+
+#icon2>img {
+    margin-left: 314px;
+    width: 20%;
+    
+}
+
+#imgcent>img {
+    margin-left: 37px;
+    margin-right: 0px;
+    margin-top: 157px;
+    margin-bottom: 20px;
+}
+
+/*main*/
+main{
+    display: grid;
+    background-color:#EAEDF8 ;
+    grid-template-columns: 2fr 1.5fr;
+    background-size: 100%;
+    height: 120%;
+}
+main> p{
+}
+.anuncio_live{
+    float: left;
+    text-align: center;
+    font-family: 'roboto_2';       
+}
+#live{
+    color:#313131;
+    font-size: 2rem;
+    display:inline-flex;
+    margin-top: 75px;
+    padding:0.3px 27px 0.3px 27px;
+    border: solid 2.3px;
+    border-radius: 14px;
+    border-color: red;
+    font-family:'roboto';
+}
+#data_live{
+    color:#313131;
+    font-family:'roboto_bold';
+    font-size: 1.2rem;
+}
+#data_live_horarioB{
+    font-family:'roboto_light';
+    line-height: 30px;
+    color: #313131;
+}
+#icon3{
+    display: inline-flex;
+    margin-top: 28px;
+    width: 20%;
+}
+
+#text_cadastro{
+    font-family: 'roboto_light';
+    color:#313131;  
+}
+.cadastro{
+       
+}
+#text_cadastro{
+    margin-top: 25px;
+    font-family:'roboto';
+    color:#313131;
+}
+.inputs{
+ margin-top: 10px;
+}
+#nome{
+    border: solid #707070 1px;
+    border-radius: 80px;
+    padding: 8px 109px 8px 7px;
+}
+#email{
+    border: solid #707070 1px;
+    border-radius: 80px;
+    padding: 8px 109px 8px 7px;
+}
+#celular{
+    border: solid #707070 1px;
+    border-radius: 80px;
+    padding: 8px 109px 8px 7px;
+}
+.button{
+   
+
+}
+
+
+
+
+/*<button type="submit"><b>QUERO PARTICIPAR</b></button>*/
